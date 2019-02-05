@@ -11,4 +11,4 @@ for row in rd:
   rownum += 1
 
   for fieldname in rd.fieldnames:
-    print "\t"+fieldname+":\t"+row[fieldname]
+    print "\t"+"{:<30}".format(fieldname)+row[fieldname]
